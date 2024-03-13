@@ -1,0 +1,27 @@
+SELECT Comenzi.numar_factura, Comenzi.numar_comanda, Sucursale.sucursala, Data.data FROM comenzi
+JOIN Sucursale
+ON Comenzi.numar_comanda = Sucursale.numar_comanda
+JOIN Data
+ON Comenzi.numar_factura = Data.numar_factura
+JOIN Cantitati
+ON Comenzi.id_cantitate = Cantitati.id_cantitate
+WHERE Sucursale.sucursala = 'Oradea'
+AND Data.data = '1/31/2024'
+AND Comenzi.numar_comanda IN (
+    SELECT Comenzi.numar_comanda
+	FROM Cantitati
+	JOIN Comenzi
+	ON Cantitati.id_cantitate = Comenzi.id_cantitate
+	WHERE Cantitati.id_cantitate = Comenzi.id_cantitate
+	AND Cantitati.cantitate > 0
+	ORDER BY cantitate
+)
+AND Comenzi.numar_comanda IN (
+    SELECT Comenzi.numar_comanda
+	FROM Cantitati
+	JOIN Comenzi
+	ON Cantitati.id_cantitate = Comenzi.id_cantitate
+	WHERE Cantitati.id_cantitate = Comenzi.id_cantitate
+	AND Cantitati.cantitate < 0
+	ORDER BY cantitate
+);

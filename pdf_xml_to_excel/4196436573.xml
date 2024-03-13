@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2">
+  <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+  <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:efactura.mfinante.ro:CIUS-RO:1.0.1</cbc:CustomizationID>
+  <cbc:ID>20241747776</cbc:ID>
+  <cbc:IssueDate>2024-03-01</cbc:IssueDate>
+  <cbc:DueDate>2024-04-06</cbc:DueDate>
+  <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
+  <cbc:Note>@411.62283 </cbc:Note>
+  <cbc:Note>STR. IZVORULUI NR.1; VINTI DE JOS</cbc:Note>
+  <cbc:DocumentCurrencyCode>RON</cbc:DocumentCurrencyCode>
+  <cbc:TaxCurrencyCode>RON</cbc:TaxCurrencyCode>
+  <cac:OrderReference>
+    <cbc:ID>0</cbc:ID>
+    <cbc:SalesOrderID>0</cbc:SalesOrderID>
+  </cac:OrderReference>
+  <cac:AccountingSupplierParty>
+    <cac:Party>
+      <cac:PartyName>
+        <cbc:Name>AD AUTO TOTAL SRL</cbc:Name>
+      </cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:StreetName>STR TINCANI NR. 8</cbc:StreetName>
+        <cbc:CityName>SECTOR6</cbc:CityName>
+        <cbc:CountrySubentity>RO-B</cbc:CountrySubentity>
+        <cac:Country>
+          <cbc:IdentificationCode>RO</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyTaxScheme>
+        <cbc:CompanyID>RO6844726</cbc:CompanyID>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:PartyTaxScheme>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>AD AUTO TOTAL SRL</cbc:RegistrationName>
+        <cbc:CompanyID>RO6844726</cbc:CompanyID>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+  <cac:AccountingCustomerParty>
+    <cac:Party>
+      <cac:PartyName>
+        <cbc:Name>AUTO BRAND SRL</cbc:Name>
+      </cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:StreetName>SOS ALEXANDRIEI 327  ILFOV</cbc:StreetName>
+        <cbc:CityName>COM BRAGADIRU </cbc:CityName>
+        <cbc:CountrySubentity>RO-IF</cbc:CountrySubentity>
+        <cac:Country>
+          <cbc:IdentificationCode>RO</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyTaxScheme>
+        <cbc:CompanyID>RO16291046</cbc:CompanyID>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:PartyTaxScheme>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>AUTO BRAND SRL</cbc:RegistrationName>
+        <cbc:CompanyID>RO16291046</cbc:CompanyID>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+  <cac:Delivery>
+    <cac:DeliveryLocation>
+      <cac:Address>
+        <cbc:StreetName>SOS ALEXANDRIEI 327  ILFOV</cbc:StreetName>
+        <cbc:CityName>COM BRAGADIRU </cbc:CityName>
+        <cbc:CountrySubentity>RO-IF</cbc:CountrySubentity>
+        <cac:Country>
+          <cbc:IdentificationCode>RO</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:Address>
+    </cac:DeliveryLocation>
+  </cac:Delivery>
+  <cac:PaymentMeans>
+    <cbc:PaymentMeansCode>42</cbc:PaymentMeansCode>
+    <cac:PayeeFinancialAccount>
+      <cbc:ID>RO21BTRLRONCRT0P66633401</cbc:ID>
+      <cbc:Name>Banca Transilvania S.A.</cbc:Name>
+    </cac:PayeeFinancialAccount>
+  </cac:PaymentMeans>
+  <cac:PaymentMeans>
+    <cbc:PaymentMeansCode>42</cbc:PaymentMeansCode>
+    <cac:PayeeFinancialAccount>
+      <cbc:ID>RO48BACX0000004513783000</cbc:ID>
+      <cbc:Name>Unicredit Bank</cbc:Name>
+    </cac:PayeeFinancialAccount>
+  </cac:PaymentMeans>
+  <cac:PaymentMeans>
+    <cbc:PaymentMeansCode>42</cbc:PaymentMeansCode>
+    <cac:PayeeFinancialAccount>
+      <cbc:ID>RO50TREZ7005069XXX002078</cbc:ID>
+      <cbc:Name>Trezoreria Municipiului Bucuresti</cbc:Name>
+    </cac:PayeeFinancialAccount>
+  </cac:PaymentMeans>
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="RON">-47.87</cbc:TaxAmount>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="RON">-251.96</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="RON">-47.87</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>19</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+  </cac:TaxTotal>
+  <cac:LegalMonetaryTotal>
+    <cbc:LineExtensionAmount currencyID="RON">-251.96</cbc:LineExtensionAmount>
+    <cbc:TaxExclusiveAmount currencyID="RON">-251.96</cbc:TaxExclusiveAmount>
+    <cbc:TaxInclusiveAmount currencyID="RON">-299.83</cbc:TaxInclusiveAmount>
+    <cbc:PayableAmount currencyID="RON">-299.83</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+  <cac:InvoiceLine>
+    <cbc:ID>1</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="H87">-1</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="RON">-251.96</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>172812F</cbc:Description>
+      <cbc:Name>172812F COMUTATOR PORNIRE FEBI</cbc:Name>
+      <cac:SellersItemIdentification>
+        <cbc:ID>172812F</cbc:ID>
+      </cac:SellersItemIdentification>
+      <cac:CommodityClassification>
+        <cbc:ItemClassificationCode listID="STI">85365015</cbc:ItemClassificationCode>
+      </cac:CommodityClassification>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>19</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="RON">251.96</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="H87">-1</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>
+</Invoice>
