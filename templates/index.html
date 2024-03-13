@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+    <title>Product Details</title>
+</head>
+<body>
+    <p>Enter product id<p>
+    <div class="button-container">
+        <input type="text" id="product-id" placeholder="Product ID">
+        <button class="enter-button">Enter</button>
+    </div>
+    <h1>Product Details</h1>
+    <div class="table-container">
+        <table id="product-table">
+            <thead>
+                <tr>
+                    <th>Denumire</th>
+                    <th>Pret</th>
+                    <th>Disponibilitate</th>
+                    <th>Producator</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+                <!-- Table body will be populated dynamically -->
+            </tbody>
+        </table>
+    </div>
+    <div class="button-container">
+        <button class="export-to-excel">Export To Excel</button>
+        <button class="clear-table">Clear Table</button>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.0/xlsx.full.min.js"></script>
+    <script src="static/script.js"> </script>
+</body>
+</html>
