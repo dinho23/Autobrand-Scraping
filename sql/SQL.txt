@@ -1,4 +1,4 @@
-SELECT Comenzi.numar_factura, Comenzi.numar_comanda, Sucursale.sucursala, Data.data FROM comenzi
+SELECT DISTINCT(Comenzi.numar_comanda) FROM comenzi
 JOIN Sucursale
 ON Comenzi.numar_comanda = Sucursale.numar_comanda
 JOIN Data
